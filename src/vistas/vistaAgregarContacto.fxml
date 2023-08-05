@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="257.0" prefWidth="338.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controladores.vistaAgregarControlador">
+   <children>
+      <Label layoutX="57.0" layoutY="24.0" text="Rellena la informacion del nuevo contacto:" />
+      <TextField fx:id="nombre" layoutX="60.0" layoutY="58.0" prefHeight="25.0" prefWidth="218.0" promptText="nombre" />
+      <TextField fx:id="apellido" layoutX="61.0" layoutY="92.0" prefHeight="25.0" prefWidth="218.0" promptText="apellido" />
+      <TextField fx:id="telefono" layoutX="60.0" layoutY="129.0" prefHeight="25.0" prefWidth="218.0" promptText="telefono" />
+      <TextField fx:id="direccion" layoutX="61.0" layoutY="161.0" prefHeight="25.0" prefWidth="218.0" promptText="direccion" />
+      <Button fx:id="agregar" layoutX="141.0" layoutY="207.0" mnemonicParsing="false" onAction="#agregar" text="Añadir" />
+   </children>
+</AnchorPane>

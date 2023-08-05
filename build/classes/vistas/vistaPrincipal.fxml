@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controladores.vistaPControlador">
+   <children>
+      <Button fx:id="search" layoutX="315.0" layoutY="86.0" mnemonicParsing="false" onAction="#buscar" text="buscar" />
+      <ComboBox fx:id="resultado" layoutX="78.0" layoutY="143.0" onAction="#seleccionado" prefHeight="25.0" prefWidth="218.0" />
+      <TextField fx:id="busqueda" layoutX="78.0" layoutY="86.0" prefHeight="25.0" prefWidth="230.0" promptText="Escribe el nombre a buscar..." />
+      <Label layoutX="78.0" layoutY="126.0" text="Resultado:" />
+      <Button fx:id="eliminar" layoutX="315.0" layoutY="143.0" mnemonicParsing="false" onAction="#eliminar" text="Eliminar seleccionado" />
+      <TextField fx:id="nombre" layoutX="79.0" layoutY="188.0" prefHeight="25.0" prefWidth="218.0" promptText="nombre" />
+      <TextField fx:id="apellido" layoutX="78.0" layoutY="223.0" prefHeight="25.0" prefWidth="218.0" promptText="apellido" />
+      <TextField fx:id="telefono" layoutX="79.0" layoutY="258.0" prefHeight="25.0" prefWidth="218.0" promptText="telefono" />
+      <TextField fx:id="direccion" layoutX="78.0" layoutY="290.0" prefHeight="25.0" prefWidth="218.0" promptText="direccion" />
+      <Button fx:id="editar" layoutX="315.0" layoutY="236.0" mnemonicParsing="false" onAction="#editar" text="Guardar" />
+   </children>
+</AnchorPane>
